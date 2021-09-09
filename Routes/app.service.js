@@ -39,9 +39,12 @@ class AppServices {
         res.status(200).send({ msg: "OK" })
     }
 
-    //Update Service
-    async UpdateAppServices(req, res) {
-        res.status(200).send({ msg: "OK" })
+    async fetchUserById(req,res) {
+        try {
+            
+        } catch (error) {
+            
+        }
     }
 }
 

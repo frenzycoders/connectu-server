@@ -12,7 +12,6 @@ const filterContact = async (data, user) => {
         await user.populate('contacts').execPopulate();
     }
     userContact.contacts = [];
-    await userContact.save();
     await Promise.all(data.map(getPerContact));
     await userContact.save();
     return userContact;
