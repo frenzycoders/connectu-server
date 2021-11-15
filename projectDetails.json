@@ -1,1 +1,15 @@
-{"name":"connectu-server","path":"","description":"This is server for connectu application","isDb":true,"isLocalDB":true,"dbUrl":"mongodb://localhost/","dbName":"connectu","isAuth":true,"routes":["/","/user","/settings"]}
+{
+    "name": "connectu-server",
+    "path": "",
+    "description": "This is server for connectu application",
+    "isDb": true,
+    "isLocalDB": true,
+    "dbUrl": "mongodb://localhost/",
+    "dbName": "connectu",
+    "isAuth": true,
+    "routes": [
+        "/",
+        "/user",
+        "/settings"
+    ]
+}
